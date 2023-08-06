@@ -7,6 +7,7 @@ function launch() {
     const cardBack = document.querySelector('#backForm').value
 
     document.querySelector('#cardFront').innerText = cardFront
+    document.querySelector('#cardBack').innerText = cardBack
 }
 
 function flip() {
